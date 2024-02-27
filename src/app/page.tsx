@@ -2,6 +2,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import { SpotlightPreview } from "@/components/SpotlightEffect";
 import TestimonialCards from "@/components/TestimonialCards";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 const Homepage = () => {
@@ -14,6 +15,7 @@ const Homepage = () => {
         <FeaturedCourses />
         <WhyChooseUs />
         <TestimonialCards />
+        <UpcomingWebinars />
       </main>
     </>
   );
