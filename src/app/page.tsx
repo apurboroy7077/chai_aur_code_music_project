@@ -1,3 +1,4 @@
+import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import { SpotlightPreview } from "@/components/SpotlightEffect";
 
@@ -8,6 +9,7 @@ const Homepage = () => {
         <h1 className="opacity-[0]">Test</h1>
         <h1 className=" text-2xl text-center mt-[5rem]">This is Homepage</h1>
         <HeroSection />
+        <FeaturedCourses />
       </main>
     </>
   );
