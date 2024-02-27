@@ -1,6 +1,7 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import { SpotlightPreview } from "@/components/SpotlightEffect";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
         <h1 className=" text-2xl text-center mt-[5rem]">This is Homepage</h1>
         <HeroSection />
         <FeaturedCourses />
+        <WhyChooseUs />
       </main>
     </>
   );
