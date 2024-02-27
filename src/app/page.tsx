@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import InstructorsTooltip from "@/components/InstructorsTooltip";
 import { SpotlightPreview } from "@/components/SpotlightEffect";
 import TestimonialCards from "@/components/TestimonialCards";
 import UpcomingWebinars from "@/components/UpcomingWebinars";
@@ -16,6 +17,7 @@ const Homepage = () => {
         <WhyChooseUs />
         <TestimonialCards />
         <UpcomingWebinars />
+        <InstructorsTooltip />
       </main>
     </>
   );
