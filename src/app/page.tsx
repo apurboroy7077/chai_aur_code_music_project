@@ -1,9 +1,16 @@
-const page = () => {
+import HeroSection from "@/components/HeroSection";
+import { SpotlightPreview } from "@/components/SpotlightEffect";
+
+const Homepage = () => {
   return (
     <>
-      <h1>This is Homepage</h1>
+      <main className=" min-h-screen bg-black/[0.96] antialiased bg-grid-white text-white">
+        <h1 className="opacity-[0]">Test</h1>
+        <h1 className=" text-2xl text-center mt-[5rem]">This is Homepage</h1>
+        <HeroSection />
+      </main>
     </>
   );
 };
 
-export default page;
+export default Homepage;
